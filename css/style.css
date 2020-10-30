@@ -1,0 +1,126 @@
+.main{
+width: 70%;
+height: 1200px;
+margin: 0 auto;
+display: flex;
+
+}
+.main-left{
+    width: 30%;
+    height: 100%;
+    background-color: #a8a4a3;
+    
+}
+.main-right{
+    width: 70%;
+    height: 100%;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+.avatar{
+    width: 100%;
+    height: 40%;
+
+    
+}
+.ima{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    padding-top: 30px;
+    
+}
+.ima img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.name{
+    text-align: center;
+}
+h1#ten{
+    margin-top: -20px;
+}
+.detail{
+    width: 100%;
+    height: 60%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: justify;
+    /* line 29 phải đi kèm với line 28 mới có ý nghĩa */
+
+}
+h2{
+    text-align: center;
+}
+.gach{
+    width: 100%;
+    height:1px;
+    background-color: black;
+    margin: 0 auto;
+}
+.content{
+    width: 80%;
+    margin: 0 auto;
+}
+.vung-tren{
+    width: 95%;
+    height: 85%;
+   
+    margin: 0 auto;
+}
+.vung-duoi{
+    width: 95%;
+    height: 15%;
+   
+    margin: 0 auto;
+    
+}
+.experience{
+    width: 100%;
+
+
+}
+.education{
+    width: 100%;
+
+}
+.grid-main{
+    display: grid;
+    height: 30%;
+    grid-template-columns: 30% 62%;
+    grid-gap: 5px 20px;
+}
+.grid_item.title{
+    text-align: left;
+}
+.grid_item.title p{
+    padding-left: 53px;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+}
+.main-icon{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.gach2{
+    width: 100%;
+    height:2px;
+    background-color: black;
+}
+.gach3{
+    width: 4%;
+    height: 100%;
+    background-color: dodgerblue;
+}
+.test{
+    width: 90%;
+    margin: 0 auto;
+}
